@@ -65,11 +65,17 @@ button {
   color: #ffffff;
   font-weight: 600;
   font-size: 1.25rem;
-  width: 80%;
+  width: 40%;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 900px) {
+  .primaryButton {
+    width: 80%;
+  }
 }
 
 .removeIcon {
