@@ -401,6 +401,9 @@ function CreateListing() {
           <p className='imagesInfo'>
             The first image will be the cover (max 6).
           </p>
+          <p className='imagesInfo'>
+            Image size must be under 1 MB.
+          </p>
           <input
             className='formInputFile'
             type='file'
