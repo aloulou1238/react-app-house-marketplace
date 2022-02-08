@@ -38,7 +38,7 @@ function Slider() {
     <Spinner />
   }
 
-  if(listings.length === 0){
+  if(!listings){
     return <></>
   }
 
